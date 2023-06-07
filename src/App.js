@@ -1,21 +1,27 @@
 import React from 'react';
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Porjects";
-import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
+import Header from './components/header/Header';
+import Nav from './components/nav/Nav';
+import About from './components/about/About';
+import Experience from './components/experience/Experience';
+import Services from './components/services/Services';
+import Portfolio from './components/portfolio/Portfolio';
+import Testimonials from './components/testimonials/Testimonials';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 
 function App() {
   return (
     <main>
-      <Navbar/>
-      <About/>
-      <Projects/>
-      <Skills/>
-      <Testimonials/>
-      <Contact/>
+      <Header />
+      <Nav />
+      <About />
+      <Experience />
+      <Services />
+      <Portfolio />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </main>
   );
 }
