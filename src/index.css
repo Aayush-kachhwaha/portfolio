@@ -39,11 +39,16 @@ body{
   background-image: url(../src/assets/bg-texture.png);/*we can also remove the background image if the user */
 }
 
+/*============== GENEARL STYLES =================*/
 .container{
   width: var(--container-width-lg);
   margin: 0 auto;
 }
-h1, h2, h3, h4, h5{
+h1, 
+h2, 
+h3, 
+h4, 
+h5{
   font-weight: 500;
 }
 
@@ -55,7 +60,8 @@ section{
   margin-top: 8rem;
 }
 
-section > h2,section > h5{
+section > h2,
+section > h5{
   text-align: center;
   color: var(--color-light);
 }
@@ -106,6 +112,16 @@ img{
   object-fit: cover;
 }
 
+/*==========MEDIA QURIES==========*/
+@media screen and (max-width:1024px) {
+  .container{
+    width: var(--container-width-md);
+  }
+
+  section{
+    margin-bottom: 6rem;
+  }
+}
 @media screen and (max-width:600px) {
   .container{
     width: var(--container-width-ms);
