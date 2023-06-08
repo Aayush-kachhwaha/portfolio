@@ -11,8 +11,8 @@ function Navbar() {
   const[activeNav, setActiveNav] =useState('#')
   return (
     <nav>
-      <a href='#' className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>
-      <a href='#about'><AiOutlineUser/></a>
+      <a href='#' onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>
+      <a href='#about' onClick={() => setActiveNav('#about')}><AiOutlineUser/></a>
       <a href='#experience'><BiBookBookmark/></a>
       <a href='#services'><RiServiceLine/></a>
       <a href='#contact'><BsFillChatLeftTextFill/></a>
