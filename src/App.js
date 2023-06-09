@@ -8,6 +8,7 @@ import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import Mpointer from './components/mpointer/Mpionter'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Testimonials />
       <Contact />
       <Footer />
+      <Mpointer/>
     </main>
   );
 }
