@@ -5,15 +5,10 @@
 }
 
 .about__me{
-    width: 100%;
-    aspect-ratio: 1/1;
+    width: 80%;
+    aspect-ratio: 1/1.;
     border-radius: 2rem;
-    background-color: linear-gradient(
-        45deg,
-        transparent,
-        var(--color-primary),
-        transparent
-    );
+    background-color:var(--color-primary);
     display: grid;
     place-items: center;
 }
@@ -35,7 +30,7 @@
     gap: 1.5rem;
 }
 
-.about__cards{
+.about__cards{ /*here the name of class in card but due to change some style i have put it in cards which is a about class name as same*/
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
@@ -73,24 +68,28 @@
 /*==========MEDIA QURIES==========*/
 @media screen and (max-width:1024px) {
     .about__container{
-        grid-template-columns: 1fr;
+        grid-template-columns: 4fr;
         gap: 0;
     }
 
     .about__me{
-        width: 50%;
-        margin: 2rem auto 4 rem;
+        width: 40%;
+        left: calc(50% - 11rem);
+        
+        margin-bottom: 3rem;
     }
 
-    .about__container p{
+    .about__content p{
         margin: 1rem 0.15rem;
+        text-align: center;
     }
-}
+
+} /* need to change the perfect setting for the given screen ratio*/
 
 @media screen and (max-width:600px) {
     .about__me{
         width: 65%;
-        margin: 2rem auto 4 rem;
+        margin: 0 auto 3 rem;
     }
 
     .about__cards{
@@ -105,4 +104,5 @@
     .about__content p{
         margin: 1.5rem 0;
     }
+    
 }

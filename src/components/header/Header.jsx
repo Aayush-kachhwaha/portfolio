@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import CTA from './CTA';
-import Me from '../../assets/WhatsApp_Image_2023-03-27_at_8.50.46_AM-removebg-preview.png';
+import Me from '../../assets/IMG20230319172433.jpg';
 import HeaderSocials from './HeaderSocials';
 
 function Header() {

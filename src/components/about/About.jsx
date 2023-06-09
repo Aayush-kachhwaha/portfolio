@@ -14,11 +14,11 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={ME} alt="About Image" />
+            <img src = {ME} alt = "About Image" />
           </div>
         </div>
       
-        <div className='about__container'>
+        <div className='about__content'>
           <div className='about__cards'>
             <article className='about__card'>
               <FaAward className='about__icon'/>
@@ -40,7 +40,7 @@ const About = () => {
           </div>
 
           <p>
-            About me paragraph 
+            About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
