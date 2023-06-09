@@ -75,7 +75,7 @@
     .about__me{
         width: 40%;
         left: calc(50% - 11rem);
-        
+        margin: auto;
         margin-bottom: 3rem;
     }
 
