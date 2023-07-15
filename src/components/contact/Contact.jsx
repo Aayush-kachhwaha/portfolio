@@ -15,12 +15,12 @@ function Contact() {
             <MarkEmailReadOutlinedIcon className='contact__option-icon' />
             <h4>Email</h4>
             <h5>aayushk26009@gmail.com</h5>
-            <a href="mailto:aayushk26009@gmail.com" target='_blank'>Send a Message</a>
+            <a href="mailto:aayushk26009@gmail.com" target='_blank' rel="noreferrer">Send a Message</a>
           </artticle>
           <artticle className="contact__option">
             <ImWhatsapp size='25px' className='contact__option-icon'/>
             <h4>Whatsapp</h4>
-            <a href="https://api.whatsapp.com/send?phone=916378689855" target='_blank'>Send a Message</a>
+            <a href="https://api.whatsapp.com/send?phone=916378689855" target='_blank' rel="noreferrer">Send a Message</a>
           </artticle>
         </div>
         <form action="">
