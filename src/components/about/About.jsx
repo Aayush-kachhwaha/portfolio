@@ -40,7 +40,13 @@ const About = () => {
           </div>
 
           <p>
-            About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.About me paragraph.
+           I am Aayush Kachhwaha, currently pursuing my Bachelor's degree in Computer Science Engineering at Vellore Institute of Technology, Bhopal.​
+
+I Am having experience of building great Website applications with JavaScript / Reactjs / Nodejs / and its libraries and frameworks.​
+
+I'm motivated to learn, grow and excel in this field. Having the ability to learn new technologies quickly. Capability to work in teams by providing valuable support.​
+
+Having Creative and Tech-savvy Web Developer intern dedicated to develop, contribute and optimize Websites and Web app which are interactive and user-friendly.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
